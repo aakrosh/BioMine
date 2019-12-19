@@ -329,5 +329,5 @@ class entrezapi(webapi):
 	def setRequestLimits( self ):
 		self.setRequestLimit( entrezapi.requestsPerWindow )
 		self.setSearchBatchSize( entrezapi.searchBatchSize )
-		self.setSummaryBatchSize( entrezaip.summaryBatchSize )
-		self.setTimeWindow( entrezaip.timeWindow )
+		self.setSummaryBatchSize( entrezapi.summaryBatchSize )
+		self.setTimeWindow( entrezapi.timeWindow )
